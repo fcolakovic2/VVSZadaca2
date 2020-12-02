@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj": {}
+    "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj": {
+    "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj",
+        "projectUniqueName": "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj",
         "projectName": "Domari",
-        "projectPath": "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj",
+        "projectPath": "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\Domari.csproj",
         "packagesPath": "C:\\Users\\FARIS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\obj\\",
+        "outputPath": "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\Domari\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FARIS\\AppData\\Roaming\\NuGet\\NuGet.Config",

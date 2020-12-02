@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pVEm6PsrEue8tAPSykK+29f11QEtkKR7t6o71MY5LtNqsSeu0b0KniyeKmuq6/Ri9SATk5kHZmeBrO90WrEbgQ==",
+  "dgSpecHash": "q7qYIUYZXM7fYAiklz/ajDqKonBMuA3DGpuV2CLsYVpXmD4QDq9NC+OIlveH8Osisz1UrWpXI0e8gflDJ0DqNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FARIS\\Downloads\\DomariZ2Colakovic_Beso\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\UnitTestProject3\\UnitTestProject3.csproj",
+  "projectFilePath": "C:\\Users\\FARIS\\VVSZadaca2\\DomariZ2\\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\\Domari\\UnitTestProject3\\UnitTestProject3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FARIS\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\FARIS\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
