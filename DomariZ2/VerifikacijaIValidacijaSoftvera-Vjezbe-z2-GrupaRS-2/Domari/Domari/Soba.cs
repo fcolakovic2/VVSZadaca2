@@ -88,7 +88,7 @@ namespace Domari
             ///Amer Beso - 68-ST - implementacija
             if (noviBroj > 399 || noviBroj < 100)
             {
-                throw new IndexOutOfRangeException("Neispravan broj sobe");
+                throw new IndexOutOfRangeException("Neispravan broj sobe"); 
             }
             brojSobe = noviBroj;
             if (noviBroj > 299)

@@ -148,7 +148,7 @@ namespace UnitTestProject3
         [TestMethod]
         //implementacija - Faris Colakovic
         [ExpectedException(typeof(IndexOutOfRangeException))]
-        public void TestKorisnikPromjenaBrojaSobeSaBrojemSobeNeispravnim()
+        public void TestKorisnikPromjenaBrojaSobeSaBrojemSobeNeispravnim()  ////Klasa Soba, linija 91 je linija u kojoj ce se baciti izuzetak
         {
             Skolovanje s = new Skolovanje();
             LicniPodaci l1 = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -180,7 +180,7 @@ namespace UnitTestProject3
         [TestMethod]
         //implementacija - Faris Colakovic
         [ExpectedException(typeof(InvalidOperationException))]
-        public void TestKorisnikPromjenaPasswordaWithException()
+        public void TestKorisnikPromjenaPasswordaWithException()  //Klasa Korisnik, linija 78 ce baciti izuzetak
         {
             Skolovanje s = new Skolovanje();
             LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -207,7 +207,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestKorisnikKlaseUsernamePrazan()
+            public void TestKorisnikKlaseUsernamePrazan()  //Klasa Korisnik baca izuzetak prilikom kreiranja objekta
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -217,7 +217,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestKorisnikKlasePasswordPrazan()
+            public void TestKorisnikKlasePasswordPrazan()  //Klasa Korisnik baca izuzetak prilikom kreiranja objekta
             {
                 Korisnik k;
                 Skolovanje s = new Skolovanje();
@@ -248,7 +248,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaImeNeispravno()
+            public void TestLicniPodaciKlasaImeNeispravno()    //34ta linija u klasi LicniPodaci.cs baca izuzetak
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -257,7 +257,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaPrezimeNeispravno()
+            public void TestLicniPodaciKlasaPrezimeNeispravno()  //48ta linija u klasi LicniPodaci.cs baca izuzetak
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -266,7 +266,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaMjestoRodenjaPrazno()
+            public void TestLicniPodaciKlasaMjestoRodenjaPrazno() //60ta linija u klasi LicniPodaci.cs
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -276,7 +276,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaEmailPrazan()
+            public void TestLicniPodaciKlasaEmailPrazan() //72. linija u klasi LicniPodaci.cs
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
@@ -285,7 +285,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaJMBGPrazan()
+            public void TestLicniPodaciKlasaJMBGPrazan() //92. linija u klasi LicniPodaci.cs
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "", Spol.Muško, DateTime.Now);
@@ -294,7 +294,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(FormatException))]
             //implementacija - Faris Colakovic
-            public void TestLicniPodaciKlasaNeispravanDatum()
+            public void TestLicniPodaciKlasaNeispravanDatum() //110 linija u klasi LicniPodaci.cs
             {
                 Skolovanje s = new Skolovanje();
                 LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.MaxValue);
@@ -314,10 +314,10 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(ArgumentException))]
             //Amer Bešo - 68-ST - implementacija
-            public void TestSkolovanjeKlasaException()
+            public void TestSkolovanjeKlasaException()   
             {
                 Skolovanje s = new Skolovanje();
-                s.PromjenaGodineStudija(5, 5);
+                s.PromjenaGodineStudija(5, 5);   //63. linija u klasi Skolovanje.cs
             }
 
             //klasa Soba
@@ -336,7 +336,7 @@ namespace UnitTestProject3
                 Soba soba = new Soba(100, 2);
                 soba.DodajStanara(k1);
                 soba.DodajStanara(k2);
-                soba.DodajStanara(k3);
+                soba.DodajStanara(k3); //52. linija u klasi Soba, popunjena je !
             }
 
             [TestMethod]
@@ -354,7 +354,7 @@ namespace UnitTestProject3
                 Soba soba = new Soba(100, 2);
                 soba.DodajStanara(k1);
                 soba.DodajStanara(k2);
-                soba.IzbaciStudenta(k3);
+                soba.IzbaciStudenta(k3); //67. linija u klasi Soba, student nije stanar!
             }
 
             [TestMethod]
@@ -480,7 +480,7 @@ namespace UnitTestProject3
                 Student k1 = new Student("faris12", "colakovic23", l1, l, s);
                 StudentskiDom sd = new StudentskiDom(1);
                 sd.RadSaStudentom(k1, 0);
-                sd.RadSaStudentom(k1, 0);//ne moze dva puta isti Student
+                sd.RadSaStudentom(k1, 0);//ne moze dva puta isti Student, linija 73.
             }
 
             [TestMethod]
@@ -495,7 +495,7 @@ namespace UnitTestProject3
                 Student k1 = new Student("faris12", "colakovic23", l1, l, s);
                 Student k2 = new Student("amer1312", "beso123455", l1, l, s);
                 StudentskiDom sd = new StudentskiDom(1);
-                sd.RadSaStudentom(k2, 1);//nije dodan ovaj Student nikako
+                sd.RadSaStudentom(k2, 1);//nije dodan ovaj Student nikako, linija 87.
             }
 
 
@@ -510,7 +510,7 @@ namespace UnitTestProject3
                 LicniPodaci l1 = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
                 Student k1 = new Student("faris12", "colakovic23", l1, l, s);
                 StudentskiDom sd = new StudentskiDom(1);
-                sd.RadSaStudentom(k1, 2);//nije dodan ovaj Student nikako
+                sd.RadSaStudentom(k1, 2);//nije dodan ovaj Student nikako, linija 87.
             }
 
 
@@ -529,7 +529,7 @@ namespace UnitTestProject3
                 StudentskiDom sd = new StudentskiDom(1);
                 sd.UpisUDom(k1, 2, true);
                 sd.UpisUDom(k2, 2, true);
-                sd.UpisUDom(k3, 2, true);
+                sd.UpisUDom(k3, 2, true);  //101. linija u klasi StudentskiDom.cs
             }
 
             [TestMethod]
@@ -547,8 +547,8 @@ namespace UnitTestProject3
                 StudentskiDom sd = new StudentskiDom(1);
                 sd.UpisUDom(k1, 2, true);
                 sd.UpisUDom(k2, 2, true);
-                sd.UpisUDom(k3, 2, false);
-            }
+                sd.UpisUDom(k3, 2, false);  //96. linija u klasi StudentskiDom.cs
+            } 
 
             //klasa paviljon
             [TestMethod]
