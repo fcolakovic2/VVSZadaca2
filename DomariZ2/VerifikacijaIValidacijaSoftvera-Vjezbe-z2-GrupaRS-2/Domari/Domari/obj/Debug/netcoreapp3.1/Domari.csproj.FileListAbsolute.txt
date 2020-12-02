@@ -33,3 +33,12 @@ C:\Users\FARIS\Downloads\DomariZ2Colakovic_Beso\DomariZ2\VerifikacijaIValidacija
 C:\Users\FARIS\Downloads\DomariZ2Colakovic_Beso\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.csproj.CoreCompileInputs.cache
 C:\Users\FARIS\Downloads\DomariZ2Colakovic_Beso\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.dll
 C:\Users\FARIS\Downloads\DomariZ2Colakovic_Beso\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.pdb
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\bin\Debug\netcoreapp3.1\Domari.deps.json
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\bin\Debug\netcoreapp3.1\Domari.dll
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\bin\Debug\netcoreapp3.1\Domari.pdb
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.csprojAssemblyReference.cache
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.AssemblyInfoInputs.cache
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.AssemblyInfo.cs
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.csproj.CoreCompileInputs.cache
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.dll
+C:\Users\FARIS\VVSZadaca2\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\Domari\obj\Debug\netcoreapp3.1\Domari.pdb
