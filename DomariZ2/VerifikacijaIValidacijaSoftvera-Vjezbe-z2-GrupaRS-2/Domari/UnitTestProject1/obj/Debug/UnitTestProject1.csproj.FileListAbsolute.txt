@@ -1,0 +1,14 @@
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Colakovic\Downloads\DomariZ2\VerifikacijaIValidacijaSoftvera-Vjezbe-z2-GrupaRS-2\Domari\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
