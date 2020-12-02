@@ -264,7 +264,8 @@ namespace UnitTestProject3
             }
 
             [TestMethod]
-            [ExpectedException(typeof(FormatException))]
+            [ExpectedException(typeof(FormatException))] 
+
             //implementacija - Faris Colakovic
             public void TestLicniPodaciKlasaMjestoRodenjaPrazno() //60ta linija u klasi LicniPodaci.cs
             {
@@ -314,7 +315,7 @@ namespace UnitTestProject3
             [TestMethod]
             [ExpectedException(typeof(ArgumentException))]
             //Amer Bešo - 68-ST - implementacija
-            public void TestSkolovanjeKlasaException()   
+            public void TestSkolovanjeKlasaException()
             {
                 Skolovanje s = new Skolovanje();
                 s.PromjenaGodineStudija(5, 5);   //63. linija u klasi Skolovanje.cs
@@ -548,7 +549,7 @@ namespace UnitTestProject3
                 sd.UpisUDom(k1, 2, true);
                 sd.UpisUDom(k2, 2, true);
                 sd.UpisUDom(k3, 2, false);  //96. linija u klasi StudentskiDom.cs
-            } 
+            }
 
             //klasa paviljon
             [TestMethod]
@@ -561,7 +562,152 @@ namespace UnitTestProject3
             }
         }
 
+        [TestClass]
+        public class TestClass1
+        {
+            static IEnumerable<object[]> Data
+            {
+                get
+                {
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "12345", Spol.Muško, DateTime.MaxValue },
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNeispravnoVrijeme(string ime, string prezime, string grad, string maiil, string img, string broj, Spol spoll, DateTime dejt)
+            {
+                Skolovanje s = new Skolovanje();
+                LicniPodaci l = new LicniPodaci(ime,prezime,grad,maiil,img,broj,spoll,dejt);
+
+            }
+
+            static IEnumerable<object[]> Data2
+            {
+                get
+                {
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"Faris", "colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "12345", Spol.Muško, DateTime.Now },
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data2")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNeispravnoPrezime(string ime, string prezime, string grad, string maiil, string img, string broj, Spol spoll, DateTime dejt)
+            {
+                Skolovanje s = new Skolovanje();
+                LicniPodaci l = new LicniPodaci(ime, prezime, grad, maiil, img, broj, spoll, dejt);
+
+            }
+
+
+            static IEnumerable<object[]> Data3
+            {
+                get
+                {
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "12345", Spol.Muško, DateTime.Now },
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data3")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNeispravnoIme(string ime, string prezime, string grad, string maiil, string img, string broj, Spol spoll, DateTime dejt)
+            {
+                Skolovanje s = new Skolovanje();
+                LicniPodaci l = new LicniPodaci(ime, prezime, grad, maiil, img, broj, spoll, dejt);
+
+            }
+
+
+            static IEnumerable<object[]> Data4
+            {
+                get
+                {
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "", Spol.Muško, DateTime.Now },
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data4")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNemaJMBG(string ime, string prezime, string grad, string maiil, string img, string broj, Spol spoll, DateTime dejt)
+            {
+                Skolovanje s = new Skolovanje();
+                LicniPodaci l = new LicniPodaci(ime, prezime, grad, maiil, img, broj, spoll, dejt);
+
+            }
+
+
+            static IEnumerable<object[]> Data5
+            {
+                get
+                {
+                    Skolovanje s = new Skolovanje();
+                    LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
+
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"", "colakovic231", l, null, s},
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data5")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNemaUsernamea(string usw, string password, LicniPodaci l, List<String> lstring,Skolovanje sk)
+            {
+               
+                Korisnik k = new Student(usw,password,l,lstring,sk);//ovjde treba izuzetak zbog praznog username
+
+            }
+
+            static IEnumerable<object[]> Data6
+            {
+                get
+                {
+                    Skolovanje s = new Skolovanje();
+                    LicniPodaci l = new LicniPodaci("Faris", "Colakovic", "Zenica", "fcolakovic@etf.unsa.ba", "image.jpeg", "1231231231233", Spol.Muško, DateTime.Now);
+
+                    return new[]  //ovo je sad kao dvodimenzionalna matrica, koja je prisutna u recimo csv datoteci. svaki red matrice je zapravo novi objekat, a svaka kolona je neki opis objekta tj atribut npr ime Faris
+                    {
+                    new object[] {"fcolakovic2", "", l, null, s},
+                     };
+                }
+            }
+
+
+            [TestMethod]
+            [DynamicData("Data6")]
+            [ExpectedException(typeof(FormatException))]
+            public void TestNemaPassworda(string usw, string password, LicniPodaci l, List<String> lstring, Skolovanje sk)
+            {
+
+                Korisnik k = new Student(usw, password, l, lstring, sk);//ovjde treba izuzetak zbog praznog pw
+
+            }
+
+        }
+
+
     }
-
-
 }
